@@ -26,6 +26,8 @@ def esc(s):
 NAME = "RICHARD PAUL K"
 SUB = "Requirement Specification Engineer  ·  5G Fronthaul  ·  CPRI / eCPRI / O-RAN"
 TAG = "25 YEARS IN TELECOM SOFTWARE  ·  BANGALORE, INDIA"
+PREV_LABEL = "PREVIOUSLY"
+PREV = "Area Program Manager  ·  Transport SME  ·  Datapath SME  ·  Feature Leader"
 
 SECTIONS = [("01", "About"), ("02", "Focus Areas"), ("03", "Career"),
             ("04", "Toolbox"), ("05", "Credentials"), ("06", "Connect")]
@@ -42,8 +44,8 @@ def years(s, e):
     return f"{int(s)} – {'Present' if e is None else int(e)}"
 
 serif_text = NAME + "".join(t for _, t in SECTIONS) + "Career Timeline"
-sans_text = SUB + "".join(c + r for c, r, _, _ in CAREER)
-mono_text = TAG + "".join(n for n, _ in SECTIONS) + "".join(years(s, e) for *_, s, e in CAREER) + "0123456789"
+sans_text = SUB + PREV + "".join(c + r for c, r, _, _ in CAREER)
+mono_text = TAG + PREV_LABEL + "".join(n for n, _ in SECTIONS) + "".join(years(s, e) for *_, s, e in CAREER) + "0123456789"
 
 FONTS = "".join([
     font_face("Source+Serif+4:opsz,wght@60,600", "SS4", 600, serif_text),
@@ -73,10 +75,11 @@ banner = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" vi
 {arcs}
 <circle cx="1130" cy="160" r="7" fill="{GOLD}"/>
 </g>
-<text x="80" y="132" style="{MONO};font-size:15px;letter-spacing:3.5px" fill="{GOLD}">{esc(TAG)}</text>
-<text x="78" y="200" style="{SERIF};font-size:68px;letter-spacing:1px" fill="#FFFFFF">{esc(NAME)}</text>
-<rect x="80" y="222" width="88" height="3" fill="{GOLD}"/>
-<text x="80" y="262" style="{SANS};font-weight:400;font-size:23px" fill="#C8D6E8">{esc(SUB)}</text>
+<text x="80" y="108" style="{MONO};font-size:15px;letter-spacing:3.5px" fill="{GOLD}">{esc(TAG)}</text>
+<text x="78" y="176" style="{SERIF};font-size:68px;letter-spacing:1px" fill="#FFFFFF">{esc(NAME)}</text>
+<rect x="80" y="198" width="88" height="3" fill="{GOLD}"/>
+<text x="80" y="238" style="{SANS};font-weight:400;font-size:23px" fill="#C8D6E8">{esc(SUB)}</text>
+<text x="80" y="276"><tspan style="{MONO};font-size:12px;letter-spacing:3px" fill="{GOLD}">{PREV_LABEL}</tspan><tspan dx="14" style="{SANS};font-weight:400;font-size:17px" fill="#8FA5C0">{esc(PREV)}</tspan></text>
 </svg>'''
 (OUT / "banner.svg").write_text(banner)
 

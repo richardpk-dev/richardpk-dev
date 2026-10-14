@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Richard Paul K — Requirement Specification Engineer · 5G Fronthaul · CPRI / eCPRI / O-RAN" />
+  <img src="assets/banner.svg" width="100%" alt="Richard Paul K — Requirement Specification Engineer · 5G Fronthaul · CPRI / eCPRI / O-RAN. Previously Area Program Manager, Transport SME, Datapath SME, Feature Leader" />
 </p>
 
 <p align="center">
