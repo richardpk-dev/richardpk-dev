@@ -24,21 +24,22 @@ def esc(s):
 
 # ---------- content ----------
 NAME = "RICHARD PAUL K"
-SUB = "Senior Program Manager  ·  5G RAN  ·  Transport & Datapath"
+SUB = "Requirement Specification Engineer  ·  5G Fronthaul  ·  CPRI / eCPRI / O-RAN"
 TAG = "25 YEARS IN TELECOM SOFTWARE  ·  BANGALORE, INDIA"
 
 SECTIONS = [("01", "About"), ("02", "Focus Areas"), ("03", "Career"),
             ("04", "Toolbox"), ("05", "Credentials"), ("06", "Connect")]
 
-# (company, role, start, end)
+# (company, role, start, end) — end None means present
 CAREER = [
     ("Tayana Mobility (BPL Innovision)", "Software Developer", 2000.92, 2004.0),
     ("Siemens Communication Software", "Software Developer", 2004.1, 2006.6),
     ("Alcatel-Lucent India", "Senior Technical Specialist", 2006.6, 2014.7),
-    ("Nokia Networks", "Area Program Manager · Datapath SME", 2014.7, 2026.8),
+    ("Nokia Networks", "Area Program Manager · Datapath SME", 2014.7, 2026.45),
+    ("Nokia Networks", "Requirement Specification Engineer · Fronthaul", 2026.45, None),
 ]
 def years(s, e):
-    return f"{int(s)} – {'Present' if e > 2026 else int(e)}"
+    return f"{int(s)} – {'Present' if e is None else int(e)}"
 
 serif_text = NAME + "".join(t for _, t in SECTIONS) + "Career Timeline"
 sans_text = SUB + "".join(c + r for c, r, _, _ in CAREER)
@@ -94,21 +95,23 @@ TW, TH = 1000, 250
 x0, x1, y0, y1 = 70, 930, 2000, 2027
 X = lambda y: x0 + (y - y0) / (y1 - y0) * (x1 - x0)
 BAR_Y = 118
-shades = ["#2C5A8A", "#3D73A8", "#4F8CC6", GOLD]
+shades = ["#2C5A8A", "#3D73A8", "#4F8CC6", "#7FA9D6", GOLD]
 parts = []
 for yr in range(2000, 2027, 5):
     parts.append(f'<line x1="{X(yr):.1f}" y1="{BAR_Y-8}" x2="{X(yr):.1f}" y2="{BAR_Y+22}" stroke="#FFFFFF" stroke-opacity="0.12"/>')
 for i, (co, role, s, e) in enumerate(CAREER):
-    xa, xb = X(s), X(min(e, 2026.8))
+    xa, xb = X(s), X(2026.8 if e is None else e)
     parts.append(f'<rect x="{xa+1.5:.1f}" y="{BAR_Y}" width="{xb-xa-3:.1f}" height="14" rx="7" fill="{shades[i]}"/>')
     cx = (xa + xb) / 2
+    last = i == len(CAREER) - 1
+    tx, anchor = (TW - 30, "end") if last else (cx, "middle")
     above = i % 2 == 1
     ty = BAR_Y - 62 if above else BAR_Y + 50
     stem_a, stem_b = (ty + 44, BAR_Y - 2) if above else (BAR_Y + 16, ty - 18)
     parts.append(f'<line x1="{cx:.1f}" y1="{stem_a}" x2="{cx:.1f}" y2="{stem_b}" stroke="{shades[i]}" stroke-width="1.5"/>')
-    parts.append(f'<text x="{cx:.1f}" y="{ty}" text-anchor="middle" style="{MONO};font-size:12px;letter-spacing:1.5px" fill="{GOLD}">{years(s, e)}</text>')
-    parts.append(f'<text x="{cx:.1f}" y="{ty+18}" text-anchor="middle" style="{SANS};font-weight:500;font-size:15px" fill="#FFFFFF">{esc(co)}</text>')
-    parts.append(f'<text x="{cx:.1f}" y="{ty+35}" text-anchor="middle" style="{SANS};font-weight:400;font-size:13px" fill="#9FB3CC">{esc(role)}</text>')
+    parts.append(f'<text x="{tx:.1f}" y="{ty}" text-anchor="{anchor}" style="{MONO};font-size:12px;letter-spacing:1.5px" fill="{GOLD}">{years(s, e)}</text>')
+    parts.append(f'<text x="{tx:.1f}" y="{ty+18}" text-anchor="{anchor}" style="{SANS};font-weight:500;font-size:15px" fill="#FFFFFF">{esc(co)}</text>')
+    parts.append(f'<text x="{tx:.1f}" y="{ty+35}" text-anchor="{anchor}" style="{SANS};font-weight:400;font-size:13px" fill="#9FB3CC">{esc(role)}</text>')
 timeline = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{TW}" height="{TH}" viewBox="0 0 {TW} {TH}">
 <defs><style>{FONTS}</style>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{NAVY}"/><stop offset="1" stop-color="{NAVY2}"/></linearGradient></defs>

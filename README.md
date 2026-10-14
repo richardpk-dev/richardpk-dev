@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Richard Paul K — Senior Program Manager · 5G RAN · Transport & Datapath" />
+  <img src="assets/banner.svg" width="100%" alt="Richard Paul K — Requirement Specification Engineer · 5G Fronthaul · CPRI / eCPRI / O-RAN" />
 </p>
 
 <p align="center">
@@ -12,12 +12,13 @@
 
 <img src="assets/section-01.svg" width="100%" alt="About" />
 
-I lead **5G Radio Access Network programs**. I started as an engineer and still work at the level of the code. I've spent 25 years in telecom software: first writing Linux device drivers and OAM modules, and now running releases as the single point of contact for the Transport and Security domains at **Nokia Networks**.
+I write the **requirement specifications for 5G fronthaul** at **Nokia Networks**: the link between the radio unit and the baseband, built on **CPRI, eCPRI and O-RAN**. I'm also working on RAN **energy saving**, currently the **Extreme Deep Sleep** feature.
 
-What I do best is get large, cross-functional programs to delivery. That means turning high-level features into clear technical specifications, getting critical field issues resolved, and running root cause analysis (RCA) so the same failures don't recur. I use generative AI daily to sharpen planning, backlog management and engineering insight.
+I've spent 25 years in telecom software. I started by writing Linux device drivers and OAM modules. Later, as an Area Program Manager, I was the single point of contact for the Transport and Security domains in 5G RAN releases. That mix of hands-on engineering and program delivery shapes how I write specifications: precise enough for developers to build from, and realistic about how features ship and behave in the field. I use generative AI daily to sharpen planning and engineering insight.
 
-> **Currently** — Area Program Manager, Feature Leader & Datapath SME at Nokia Networks<br/>
-> **Exploring** — AI/ML across the program lifecycle, and hardware verification (SystemVerilog)
+> **Currently** — Requirement Specification Engineer, Fronthaul, at Nokia Networks (since June 2026)<br/>
+> **Working on** — Extreme Deep Sleep, a RAN energy-saving feature<br/>
+> **Exploring** — AI/ML in engineering workflows, and hardware verification (SystemVerilog)
 
 <br/>
 
@@ -26,8 +27,18 @@ What I do best is get large, cross-functional programs to delivery. That means t
 <table>
   <tr>
     <td width="50%" valign="top">
+      <b>Fronthaul Specification</b><br/>
+      <sub>Writes requirement specifications for 5G fronthaul interfaces across CPRI, eCPRI and the O-RAN fronthaul standards.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>RAN Energy Efficiency</b><br/>
+      <sub>Works on energy-saving features, currently Extreme Deep Sleep, which cuts radio power use during low-traffic periods.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <b>Program Leadership</b><br/>
-      <sub>Single point of contact for 5G RAN Transport & Security releases. Leads multiple Feature Owner Teams across a broad transport portfolio.</sub>
+      <sub>2014–2026: single point of contact for 5G RAN Transport & Security releases. Led multiple Feature Owner Teams across a broad transport portfolio.</sub>
     </td>
     <td width="50%" valign="top">
       <b>Security Transformation</b><br/>
@@ -51,12 +62,18 @@ What I do best is get large, cross-functional programs to delivery. That means t
 <img src="assets/section-03.svg" width="100%" alt="Career" />
 
 <p align="center">
-  <img src="assets/career-timeline.svg" width="100%" alt="Career timeline: Tayana Mobility 2000–2004, Siemens Communication Software 2004–2006, Alcatel-Lucent India 2006–2014, Nokia Networks 2014–present" />
+  <img src="assets/career-timeline.svg" width="100%" alt="Career timeline: Tayana Mobility 2000–2004, Siemens Communication Software 2004–2006, Alcatel-Lucent India 2006–2014, Nokia Networks Area Program Manager 2014–2026, Nokia Networks Requirement Specification Engineer 2026–present" />
 </p>
 
 <details>
 <summary><b>Earlier roles: highlights</b></summary>
 <br/>
+
+**Nokia Networks** · Area Program Manager, Feature Leader & Datapath SME · 2014 – 2026
+- Single point of contact for the Transport and Security domains in 5G RAN releases
+- Led a security transformation of base station (BTS) hardware and software with a team of system architects
+- Led the Transport DU Defect Recovery mission for 7 years, supporting tier-1 global operators
+- Subject Matter Expert for Cavium Fastpath QoS
 
 **Alcatel-Lucent India** · Senior Technical Specialist · 2006 – 2014
 - Team lead for the in-house Radio Network Controller (RNC) simulator, owning all test tool development
@@ -79,12 +96,18 @@ What I do best is get large, cross-functional programs to delivery. That means t
 
 <p>
   <img src="https://img.shields.io/badge/5G_RAN-0A1F3C?style=flat-square" alt="5G RAN" />
+  <img src="https://img.shields.io/badge/Fronthaul-0A1F3C?style=flat-square" alt="Fronthaul" />
+  <img src="https://img.shields.io/badge/CPRI-0A1F3C?style=flat-square" alt="CPRI" />
+  <img src="https://img.shields.io/badge/eCPRI-0A1F3C?style=flat-square" alt="eCPRI" />
+  <img src="https://img.shields.io/badge/O--RAN-0A1F3C?style=flat-square" alt="O-RAN" />
+  <img src="https://img.shields.io/badge/RAN_Energy_Saving-0A1F3C?style=flat-square" alt="RAN Energy Saving" />
   <img src="https://img.shields.io/badge/C%2FC%2B%2B-0A1F3C?style=flat-square&logo=cplusplus&logoColor=D4A84B" alt="C/C++" />
   <img src="https://img.shields.io/badge/Python-0A1F3C?style=flat-square&logo=python&logoColor=D4A84B" alt="Python" />
   <img src="https://img.shields.io/badge/Linux_Kernel_%26_Drivers-0A1F3C?style=flat-square&logo=linux&logoColor=D4A84B" alt="Linux kernel and drivers" />
   <img src="https://img.shields.io/badge/SystemVerilog-0A1F3C?style=flat-square" alt="SystemVerilog" />
 </p>
 <p>
+  <img src="https://img.shields.io/badge/Requirements_Engineering-14375E?style=flat-square" alt="Requirements Engineering" />
   <img src="https://img.shields.io/badge/Agile_Delivery-14375E?style=flat-square" alt="Agile" />
   <img src="https://img.shields.io/badge/Change_Management-14375E?style=flat-square" alt="Change Management" />
   <img src="https://img.shields.io/badge/RCA_%2F_EDA-14375E?style=flat-square" alt="RCA / EDA" />
@@ -112,4 +135,4 @@ What I do best is get large, cross-functional programs to delivery. That means t
 
 <img src="assets/section-06.svg" width="100%" alt="Connect" />
 
-Open to conversations about **5G RAN programs**, **telecom datapath architecture**, and **applying AI to engineering delivery**. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/pkrichard) or [email](mailto:richard.pk@gmail.com).
+Open to conversations about **5G fronthaul and O-RAN**, **RAN energy efficiency**, **telecom datapath architecture**, and **applying AI to engineering delivery**. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/pkrichard) or [email](mailto:richard.pk@gmail.com).
