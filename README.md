@@ -20,8 +20,7 @@ I also build software with **agentic AI coding tools** like **Cursor** and **Cla
 
 > **Currently** — Requirement Specification Engineer, Fronthaul, at Nokia Networks (since June 2026)<br/>
 > **Working on** — Extreme Deep Sleep, a RAN energy-saving feature<br/>
-> **Building with** — agentic AI coding (Cursor, Claude Code) and specification-driven development<br/>
-> **Exploring** — hardware verification (SystemVerilog)
+> **Building with** — agentic AI coding (Cursor, Claude Code) and specification-driven development
 
 <br/>
 
@@ -107,7 +106,6 @@ I also build software with **agentic AI coding tools** like **Cursor** and **Cla
   <img src="https://img.shields.io/badge/C%2FC%2B%2B-0A1F3C?style=flat-square&logo=cplusplus&logoColor=D4A84B" alt="C/C++" />
   <img src="https://img.shields.io/badge/Python-0A1F3C?style=flat-square&logo=python&logoColor=D4A84B" alt="Python" />
   <img src="https://img.shields.io/badge/Linux_Kernel_%26_Drivers-0A1F3C?style=flat-square&logo=linux&logoColor=D4A84B" alt="Linux kernel and drivers" />
-  <img src="https://img.shields.io/badge/SystemVerilog-0A1F3C?style=flat-square" alt="SystemVerilog" />
 </p>
 <p>
   <img src="https://img.shields.io/badge/Requirements_Engineering-14375E?style=flat-square" alt="Requirements Engineering" />
