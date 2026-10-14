@@ -16,9 +16,12 @@ I write the **requirement specifications for 5G fronthaul** at **Nokia Networks*
 
 I've spent 25 years in telecom software. I started by writing Linux device drivers and OAM modules. Later, as an Area Program Manager, I was the single point of contact for the Transport and Security domains in 5G RAN releases. That mix of hands-on engineering and program delivery shapes how I write specifications: precise enough for developers to build from, and realistic about how features ship and behave in the field. I use generative AI daily to sharpen planning and engineering insight.
 
+I also build software with **agentic AI coding tools** like **Cursor** and **Claude Code**, using **specification-driven development**: write a precise spec first, then have AI agents implement, test and deploy against it. It's a natural extension of my day job, where a good specification is what makes a feature buildable. I recently completed IISc Bangalore's course *[Agentic AI Coding: From Specification to Deployment](https://cce.iisc.ac.in/courses/agentic-al-coding-from-specification-to-deployment/)*.
+
 > **Currently** — Requirement Specification Engineer, Fronthaul, at Nokia Networks (since June 2026)<br/>
 > **Working on** — Extreme Deep Sleep, a RAN energy-saving feature<br/>
-> **Exploring** — AI/ML in engineering workflows, and hardware verification (SystemVerilog)
+> **Building with** — agentic AI coding (Cursor, Claude Code) and specification-driven development<br/>
+> **Exploring** — hardware verification (SystemVerilog)
 
 <br/>
 
@@ -37,12 +40,12 @@ I've spent 25 years in telecom software. I started by writing Linux device drive
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <b>Program Leadership</b><br/>
-      <sub>2014–2026: single point of contact for 5G RAN Transport & Security releases. Led multiple Feature Owner Teams across a broad transport portfolio.</sub>
+      <b>Agentic & Spec-Driven Development</b><br/>
+      <sub>Builds software with AI coding agents (Cursor, Claude Code), driven by precise specifications from requirement to deployment. IISc-certified, 2026.</sub>
     </td>
     <td width="50%" valign="top">
-      <b>Security Transformation</b><br/>
-      <sub>Led a team of system architects to plan and deliver security enhancements to base station (BTS) hardware and software.</sub>
+      <b>Program Leadership</b><br/>
+      <sub>2014–2026: single point of contact for 5G RAN Transport & Security releases. Led multiple Feature Owner Teams and a security transformation of base station (BTS) hardware and software.</sub>
     </td>
   </tr>
   <tr>
@@ -108,6 +111,10 @@ I've spent 25 years in telecom software. I started by writing Linux device drive
 </p>
 <p>
   <img src="https://img.shields.io/badge/Requirements_Engineering-14375E?style=flat-square" alt="Requirements Engineering" />
+  <img src="https://img.shields.io/badge/Spec--Driven_Development-14375E?style=flat-square" alt="Spec-Driven Development" />
+  <img src="https://img.shields.io/badge/Agentic_AI_Coding-14375E?style=flat-square" alt="Agentic AI Coding" />
+  <img src="https://img.shields.io/badge/Cursor-14375E?style=flat-square&logo=cursor&logoColor=D4A84B" alt="Cursor" />
+  <img src="https://img.shields.io/badge/Claude_Code-14375E?style=flat-square&logo=claude&logoColor=D4A84B" alt="Claude Code" />
   <img src="https://img.shields.io/badge/Agile_Delivery-14375E?style=flat-square" alt="Agile" />
   <img src="https://img.shields.io/badge/Change_Management-14375E?style=flat-square" alt="Change Management" />
   <img src="https://img.shields.io/badge/RCA_%2F_EDA-14375E?style=flat-square" alt="RCA / EDA" />
@@ -126,6 +133,7 @@ I've spent 25 years in telecom software. I started by writing Linux device drive
 |---|---|
 | **M.Tech, Computer Network Engineering** | Visvesvaraya Technological University · 2016 |
 | **B.E., Electronics & Communication** | Kuvempu University · 2000 · *University 9th Rank* |
+| **[Agentic AI Coding: From Specification to Deployment](https://cce.iisc.ac.in/courses/agentic-al-coding-from-specification-to-deployment/)** | IISc Bangalore, Centre for Continuing Education · 2026 |
 | **Certified Program Management Expert** | Expert Development Program · 2021 |
 | **Product Management: A Complete Guide** | 2024 |
 | **SystemVerilog Based Verification** | 2024 |
@@ -135,4 +143,4 @@ I've spent 25 years in telecom software. I started by writing Linux device drive
 
 <img src="assets/section-06.svg" width="100%" alt="Connect" />
 
-Open to conversations about **5G fronthaul and O-RAN**, **RAN energy efficiency**, **telecom datapath architecture**, and **applying AI to engineering delivery**. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/pkrichard) or [email](mailto:richard.pk@gmail.com).
+Open to conversations about **5G fronthaul and O-RAN**, **RAN energy efficiency**, **telecom datapath architecture**, and **agentic, specification-driven software development**. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/pkrichard) or [email](mailto:richard.pk@gmail.com).
